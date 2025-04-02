@@ -17,7 +17,6 @@ A simple game where twi player can compete against each other.
 
 ### Installation
 
-1. **Clone the Repository**:
    ```bash
    git clone https://github.com/yourusername/tic-tac-toe.git
    cd tic-tac-toe
