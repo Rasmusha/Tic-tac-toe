@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Bubblegum Sans", sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #183B4E;
+    color: #F5EEDC;;
+    font-family: "Bubblegum Sans", sans-serif;
+}
+
+h1 {
+    color: #F5EEDC;
+    font-size: 6rem;
+    font-family: "Pacifico", cursive;
+}
+
+input {
+    border: none;
+    padding: 0.5em;
+    outline: none;
+    border-radius: 10px;
+    background-color: #F5EEDC;
+    box-shadow: inset 2px 5px 10px rgba(0,0,0,0.3);
+    transition: 300ms ease-in-out;
+    font-size: 1.5rem
+}
+
+#start-button {
+    width: 8em;
+}
+
+#board-container {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 5px;
+}
+
+#game-board, #game-setup {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 2em;
+    justify-content: center;
+    align-items: center;
+}
+
+#buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    justify-content: center;
+}
+
+button {
+    padding: 10px;
+    background: #DDA853;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.5rem;
+}
+
+#notification {
+    font-size: 20px;
+}
+
+#player-info {
+    font-size: 1.5em;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+    cursor: pointer;
+    background: #F5EEDC;
+    color: black;
+}
