@@ -20,4 +20,4 @@ A simple game where twi player can compete against each other.
    ```bash
    git clone https://github.com/yourusername/tic-tac-toe.git
    cd tic-tac-toe
-   open index.html in web browser and start playing
+   explorer.exe index.html
